@@ -21,7 +21,7 @@ class Viking extends Soldier {
     this.name= name;
   }
  
-  receiveDamage(damage) {
+  receiveDamage(damage) { 
     this.health = this.health - damage;
     if (this.health > 0) {
       return `${this.name} has received ${damage} points of damage`;
@@ -51,7 +51,14 @@ class Saxon extends Soldier {
 }
 
 // War
-class War {}
+class War {
+  vikingArmy = [];
+  saxonArmy = [];
+
+  addViking(viking) {
+
+  }
+}
 
 
 
