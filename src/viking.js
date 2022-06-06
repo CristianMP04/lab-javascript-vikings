@@ -63,6 +63,10 @@ class War {
     this.saxonArmy.push(saxon);
   }
 
+  vikingAttack() {
+    
+  }
+
     
 }
 
